@@ -49,11 +49,10 @@ All of these models are NER related models. I have also tried base distillberts,
 
 The clean version of these 2 approaches are given in [person-name-extractor-pt-bin.ipynb](https://github.com/imtiaz114/Hishab-assessment-Imtiaz/blob/main/clean_versions/person-name-extractor-pt-bin.ipynb) and [person-name-extractor-pt-bin.ipynb](https://github.com/imtiaz114/Hishab-assessment-Imtiaz/blob/main/clean_versions/person-name-extractor-pt-multi.ipynb) notebooks. The raw versions of all of the best result notebook are also provided in a separate folder. 
 
-The performance of these models are presented in the  [performance comparison.txt](https://github.com/imtiaz114/Hishab-assessment-Imtiaz/blob/main/performance_comparison.txt) file. 
+The performance of these models are presented in the  [performance comparison.txt](https://github.com/imtiaz114/Hishab-assessment-Imtiaz/blob/main/performance_comparison.txt) file. Among these the pretrain models may be better overall accuracy but in terms of "PER" entity my persona extractor has better performances. 
 
-
-
-
+Inference on some custom sentences are presented on [this](https://github.com/imtiaz114/Hishab-assessment-Imtiaz/tree/main/results%20on%20test%20sentences
+) folder.
 
 
 
