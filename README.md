@@ -10,7 +10,7 @@ I was given two separate publicly available dataset to finetune and produce resu
    
    a. All data was given token-tag pair in dictionary format, I formed sentences by identifying "|" which denoted the end of a sentence. Corresponding tags were also extracted so that token-tag pair relation reman intact.
 
-   b. As I inteneded to use pretrain models and/or binary training approch I restricted number of labels to the most common ones, namely:
+   b. As I inteneded to use pretrain models and/or binary training approach I restricted number of labels to the most common ones, namely:
      {'O', 'B-PER', 'I-PER', 'B-ORG', 'I-ORG', 'B-LOC', 'I-LOC'}
 
    c. The other dataset had some annotation problem, like annotating ")" and "(" as separate token in some sentence and not in other, so after observing a bit, had to get rid of some of the token-tag pairs and had to remove all the punctuations from this dataset replacing with a single one in order to correctly tokenize the dataset.
