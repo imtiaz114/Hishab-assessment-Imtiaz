@@ -27,9 +27,10 @@ A. No person name case.
 
 ![Multiple Person Case](https://github.com/imtiaz114/Hishab-assessment-Imtiaz/assets/83086464/985b4fbf-fcd7-47bc-9676-86515ab7b33f)
 
-Models were trained in multi-class and binary manner, models trained on binary labels overfitted very quickly due to huge number of "O" entity in the dataset and very low number of "PER" entity. So, all experimentations and final models were done in the multi-class scnerio and later person name was extracted.
-
 B. Multiple Person name case
+
+
+Models were trained in multi-class and binary manner, models trained on binary labels overfitted very quickly due to huge number of "O" entity in the dataset and very low number of "PER" entity. So, all experimentations and final models were done in the multi-class scnerio and later person name was extracted.
 
 3. Pretrained Models :
 
